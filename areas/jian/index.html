@@ -130,6 +130,15 @@
       ]
     }
     </script>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BDXBNDRJTR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BDXBNDRJTR');
+    </script>
 </head>
 <body class="antialiased">
 
@@ -138,11 +147,13 @@
             <a href="/" class="flex items-center space-x-2">
                 <span class="text-2xl font-bold text-primary tracking-tighter">一級棒 &amp; 瓊瑤</span>
             </a>
-            <div class="hidden md:flex space-x-8 font-medium">
+            <div class="hidden md:flex space-x-6 lg:space-x-8 font-medium text-sm">
                 <a href="/#about" class="hover:text-secondary transition-colors">關於我們</a>
                 <a href="/#services" class="hover:text-secondary transition-colors">服務項目</a>
+                <a href="/#areas" class="hover:text-secondary transition-colors">服務區域</a>
                 <a href="/#faq" class="hover:text-secondary transition-colors">常見問題</a>
-                <a href="/#contact" class="bg-primary text-white px-6 py-2 rounded-full hover:bg-opacity-90 transition-all">立即聯繫</a>
+                <a href="/blog/" class="hover:text-secondary transition-colors">部落格</a>
+                <a href="/#contact" class="bg-primary text-white px-5 py-2 rounded-full hover:bg-opacity-90 transition-all">立即聯繫</a>
             </div>
         </nav>
     </header>
